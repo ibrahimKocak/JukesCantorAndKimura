@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JukesCantorAndKimura</string>
+    <string name="jukesCantor">Jukes Cantor</string>
+    <string name="kimura">Kimura</string>
+
+    <string name="empity" />
+    <string name="error">error!</string>
+    <string name="zero">0.000</string>
+
+    //Jukes objects
+    <string name="onJukes_rate_hint">Yer değiştirme oranı</string>
+    <string name="jukes_out_of_range">Oran >0.75 olamaz!</string>
+
+
+    //Kimura objects
+    <string name="onKimura_tranversiyon_rate_hint">Tranversiyon oranı</string>
+    <string name="onKimura_transisyon_rate_hint">Transisyon oranı</string>
+    <string name="kimura_out_of_range">Oranlar toplamı >1 olamaz!</string>
+    <string name="kimura_calculate_error">Değerler formül için uygun değil! ln(-x)</string>
+
+
+
+</resources>

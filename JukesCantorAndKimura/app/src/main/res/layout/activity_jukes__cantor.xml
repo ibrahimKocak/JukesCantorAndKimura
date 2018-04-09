@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:padding="30sp"
+    android:background="@color/colorBISQUE"
+    tools:context="com.example.ibrah.jukescantorandkimura.Jukes_Cantor">
+
+        <EditText
+            android:id="@+id/onJukes_editText_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/onJukes_rate_hint"
+            android:textSize="24sp"
+            android:padding="10sp"
+            android:text=""
+            android:layout_margin="2dp"
+
+            />
+
+        <TextView
+            android:id="@+id/onJukes_textView_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/colorRED"
+            android:background="@color/colorBISQUE"
+            android:layout_margin="2dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jukesCantor"
+            android:textSize="24sp"
+            android:onClick="onJukes_Hesapla_onclick"
+            android:background="@color/colorROSYBROWN"
+            android:layout_margin="2dp"
+
+            />
+
+        <TextView
+            android:id="@+id/onJukes_textView_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:hint="@string/zero"
+            android:text=""
+            android:gravity="center"
+            android:background="@color/colorBISQUE"
+            android:layout_margin="2dp"
+
+            />
+
+</LinearLayout>

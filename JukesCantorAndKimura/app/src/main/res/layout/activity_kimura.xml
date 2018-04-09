@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:padding="30sp"
+    android:background="@color/colorBISQUE"
+    tools:context="com.example.ibrah.jukescantorandkimura.Kimura">
+
+    <EditText
+        android:id="@+id/onKimura_editText_tranversiyon_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/onKimura_tranversiyon_rate_hint"
+        android:textSize="24sp"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/onKimura_editText_transisyon_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/onKimura_transisyon_rate_hint"
+        android:textSize="24sp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/onKimura_textView_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/colorRED"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kimura"
+        android:textSize="24sp"
+        android:background="@color/colorTEAL"
+        android:onClick="onKimura_Hesapla_onclick"
+
+        />
+
+    <TextView
+        android:id="@+id/onKimura_textView_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="@string/zero"
+        android:text=""
+        android:gravity="center"
+
+        />
+
+</LinearLayout>

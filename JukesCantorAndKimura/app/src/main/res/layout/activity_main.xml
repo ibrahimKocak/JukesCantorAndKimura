@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="4"
+    android:padding="40sp"
+    android:background="@color/colorBISQUE"
+    tools:context="com.example.ibrah.jukescantorandkimura.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:onClick="onMain_jukes_onclick"
+            android:text="@string/jukesCantor"
+            android:textSize="24sp"
+            android:padding="10sp"
+            android:layout_margin="4dp"
+            android:background="@color/colorROSYBROWN"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:onClick="onMain_kimura_onclick"
+            android:text="@string/kimura"
+            android:textSize="24sp"
+            android:padding="10sp"
+            android:layout_margin="4dp"
+            android:background="@color/colorTEAL"
+            />
+
+</LinearLayout>
